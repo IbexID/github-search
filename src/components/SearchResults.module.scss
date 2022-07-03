@@ -1,0 +1,23 @@
+.searchResults{
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    align-items: center;
+    &__info{
+        width: 50%;
+        display: flex;
+        justify-content: space-between;
+        align-items: baseline;
+    }
+    &__output{
+        padding-top: 50px;
+        width: 50%;
+        min-height: 200px;
+        background-color: rgba(222, 184, 135, 0.3);
+        border-radius: 4px;
+    }
+    &__text{
+        text-align: center;
+        margin: auto;
+    }
+}
