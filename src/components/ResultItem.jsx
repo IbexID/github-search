@@ -7,7 +7,7 @@ const ResultItem = (props) => {
     ? (
         <div className={cl.resultItem}>
             <p className={cl.resultItem__info}>Имя пользователя</p>
-            <p className={cl.resultItem__info}>Ссылка на репозиторий</p>
+            <p className={cl.resultItem__info}>Название репозитория</p>
             <p className={cl.resultItem__info}>Описание</p>
             <p className={cl.resultItem__info}>Аватар</p>
         </div>

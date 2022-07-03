@@ -16,6 +16,7 @@ function Github() {
       const response = await repoService.getData(query)
       if(typeof response === 'string'){
         setErrorMessage(response)
+        setResult('')
         return
       } else {
         setErrorMessage('')
