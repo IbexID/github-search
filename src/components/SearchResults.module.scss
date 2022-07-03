@@ -10,7 +10,10 @@
         align-items: baseline;
     }
     &__output{
-        padding-top: 50px;
+        display: flex;
+        flex-direction: column;
+        align-items: stretch;
+        padding: 50px 30px;
         width: 50%;
         min-height: 200px;
         background-color: rgba(222, 184, 135, 0.3);

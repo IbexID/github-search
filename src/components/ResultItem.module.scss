@@ -1,0 +1,19 @@
+.resultItem{
+    display: grid;
+    grid-template-columns: 170px 200px 400px 90px;
+    min-height: 60px;
+    margin-bottom: 60px;
+    align-items: center;
+    border-bottom: 1px solid black;
+    padding-bottom: 30px;
+    &__info{
+        align-items: baseline;
+    }
+    &__text{
+        overflow-wrap: break-word;
+    }
+    &__avatar{
+        width: 50px;
+        height: 50px;
+    }
+}
